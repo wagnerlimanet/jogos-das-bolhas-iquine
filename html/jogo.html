@@ -1,0 +1,42 @@
+<!-- 
+    » Wagner Lima | www.wagnerlima.net | @wagnerlimaNET «
+	  Professor de desenvolvimento web e design na escola iwtraining, especialista em mecanismos de 
+    buscas (SEO) e graduando em Sistemas e Mídias Digitais na Universidade Federal do Ceará (UFC).
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo Estoura Bolhas - Iquine • Cores para Todos</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="pagina-interna">
+  <script>iniciarJogo();</script>
+  <div class="tela ativo" id="telaInicio"></div>
+  <div class="tela jogo" id="telaJogo">
+    <div id="areaJogo">
+      <div class="temporizador bgbranco" id="tempo">00:30</div>
+      <div class="pontuacao bgbranco" id="pontos">0</div>
+    </div>
+    <section class="curvabase"></section>
+    <footer class="basedojogo">
+      <img src="../imagens/logotipo-iquine.png" class="logotipo" />
+    </footer>
+  </div>
+
+  <div class="tela resultado" id="telaFim">
+    <section class="bgbranco cemporcento">
+    <img src="../imagens/logotipo-iquine.png" class="logotipo" />
+  </section>
+  <section class="curvatopo"></section>
+    <h2 id="mensagemFinal" class="branco tituloprincipal margemmaior"></h2>
+    <p id="pontuacaoFinal" class="branco subtitulo"></p>
+    <button onclick="location.reload()" class="botao botaoreiniciar branco">REINICIAR</button>
+    <a href="../index.html" class="botao botaoinstrucoes branco">INSTRUÇÕES</a>
+  </div>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </body>
+</html>

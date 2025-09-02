@@ -1,0 +1,300 @@
+/*
+    » Wagner Lima | www.wagnerlima.net | @wagnerlimaNET «
+    Professor de desenvolvimento web e design na escola iwtraining, especialista em mecanismos de 
+    buscas (SEO) e graduando em Sistemas e Mi­dias Digitais na Universidade Federal do Ceara (UFC).
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    overflow: none !important;
+    }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background: #f0f0f0;
+    overflow: none !important;
+    }
+
+    .cemporcento {
+        width: 100%;
+        }
+
+    .azul {color: #00f;}
+    .preto {color: #000;}
+    .branco {color: #fff;}
+    .lilas {color: #662383;}
+    .verde {color: #0f0;}
+    .laranja {color: #f60;}
+    .vermelho {color: #f00;}
+    .bgazul {background: #00f;}
+    .bgpreto {background: #000;}
+    .bgbranco {background: #fff;}
+    .bglilas {background: #662383;}
+    .bgverde {background: #a1fc7d;}
+    .bglaranja {background: #fcd87d;}
+    .bgvermelho {background: #ff9292;}
+
+    .pagina-inicial, .pagina-interna {
+        background: url('../imagens/plano-de-fundo.jpg') center center fixed #662383;
+        background-size: cover;
+        }
+
+        .pagina-inicial .logotipo {
+            margin: 50px 0px 30px 0px;
+            width: 55%;
+            overflow: none !important;
+            }
+
+        .basedojogo .logotipo {
+            margin: 0px;
+            width: 35%;
+            }
+
+        .tituloprincipal {
+            margin: 0px;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 4.5rem;
+            }
+
+        .subtitulo {
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: lighter;
+            font-style: normal;
+            font-size: 2rem;
+            }
+
+        .informacao {
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: lighter;
+            font-style: normal;
+            font-size: 1.2rem;
+            }
+
+    .curvatopo {
+        margin: 0px auto;
+        padding: 0px;
+        width: 1080px;
+        height: 103px;
+        background: url('../imagens/curva-topo.png') top center;
+        background-size: cover;
+        }
+
+    .curvabase {
+        margin: 0px auto 120px auto;
+        padding: 0px;
+        width: 1080px;
+        height: 123px;
+        background: url('../imagens/curva-base.png') bottom center;
+        background-size: cover;
+        z-index: 10;
+        position: absolute;
+        bottom: 0px;
+        }
+
+        .bgbranco {
+            padding-bottom: 20px;
+            background: #fff;
+            }
+
+    .valordospontos {
+        margin: 17px 0px;
+        padding: 20px 50px;
+        border-radius: 100px;
+        transform: scale(1);
+        transition: all 0.5s ease;
+        }
+
+        .valordospontos:hover {
+            transform: scale(1.05);
+            transition: all 0.5s ease;
+            }
+
+        .numerodepontos {
+            margin: 25px 20px 0px -10px;
+            padding: 20px 35px;
+            font-size: 2rem;
+            font-family: "Bebas Neue", sans-serif;
+            border-radius: 100px;
+            background: rgba(86, 86, 86, 0.587);
+            float: left;
+            }
+
+        .botao {
+            margin-top: 30px;
+            padding: 10px 35px;
+            font-size: 2.5rem;
+            font-family: "Bebas Neue", sans-serif;
+            border-radius: 50px;
+            border: 3px solid #ffffff9b;
+            text-decoration: none;
+            float: left;
+            }
+
+        .botaoiniciar {
+            background: #662383;
+            }
+
+            .botaoiniciar:hover {
+                cursor: pointer;
+                background: #04459a97;
+                }
+
+        .botaoinstrucoes {
+            background: #01400a97;
+            }
+
+            .botaoinstrucoes:hover {
+                cursor: pointer;
+                background: #5c9a0497;
+                }
+
+        @-webkit-keyframes botao-pulsando {
+          to {
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+            }
+          }
+
+          @keyframes botao-pulsando {
+            to {
+              -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+              }
+            }
+
+        .botao-pulsando {
+          display: inline-block;
+          vertical-align: middle;
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+          box-shadow: 0 0 1px rgba(3, 4, 58, 0.897);
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          -moz-osx-font-smoothing: grayscale;
+          }
+
+          .botao-pulsando:hover, .botao-pulsando:focus, .botao-pulsando:active, .botao-pulsando {
+            -webkit-animation-name: botao-pulsando;
+            animation-name: botao-pulsando;
+            -webkit-animation-duration: 0.7s;
+            animation-duration: 0.7s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+            }
+
+        .botaoreiniciar {
+            background: #e30c0c97;
+            }
+            
+            .botaoreiniciar:hover {
+                cursor: pointer;
+                background: #2d38cf97;
+                }
+
+        .valordospontos img {
+            width: 120px;
+            }
+
+        .tela {
+            margin-top: 0px;
+            display: none;
+            /* justify-content: center; */
+            align-items: center;
+            flex-direction: column;
+            height: 55vh;
+            }
+
+        .jogo, .resultado {
+            margin-top: 0px;
+            display: none;
+            /* justify-content: center; */
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            }
+
+        .ativo {
+            display: flex;
+            }
+
+        .margemmaior {
+            margin-top: 100px;
+            }
+
+        .pontuacao, .temporizador {
+            margin-top: 30px;
+            padding: 20px 80px;
+            font-size: 2rem;
+            border-radius: 100px;
+            z-index: 10;
+            position: absolute;
+            font-weight: bold;
+            }
+
+        .temporizador {
+            left: 20px;
+            }
+
+        .pontuacao {
+            right: 20px;
+            }
+            
+        #areaJogo {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            }
+
+            .bolha {
+                position: absolute;
+                width: 300px;
+                height: 320px;
+                background-size: cover;
+                animation: subir 6s linear forwards;
+                }
+
+    @keyframes subir {
+        0%   { bottom: -60px; transform: translateX(0); }
+        25%  { transform: translateX(-10px); }
+        50%  { transform: translateX(10px); }
+        75%  { transform: translateX(-10px); }
+        100% { bottom: 100%; transform: translateX(0); }
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            background: white;
+            z-index: 10;
+            }
+
+            button {
+                padding: 10px 20px;
+                font-size: 20px;
+                }
+
+            .basedojogo img {
+                padding: 20px 0px;
+                width: 15% !important;
+                }
+
+            .resultado img {
+                padding: 80px 0px 30px 0px;
+                width: 55% !important;
+                }
