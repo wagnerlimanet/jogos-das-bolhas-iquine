@@ -17,7 +17,6 @@ Jogo interativo desenvolvido com HTML, CSS e JavaScript, além de layout e ícon
 - Adobe Photoshop (edição e criação de imagens e layout).
 
 ## 🕹️ Como jogar
-- Basta acessar o link [https://wagnerlimanet.github.io/jogos-das-bolhas-iquine](https://wagnerlimanet.github.io/jogos-das-bolhas-iquine)
 - Basta acessar o link https://wagnerlimanet.github.io/jogos-das-bolhas-iquine
 - Lembrando que, para uma melhor experciência, é importante jogar em orientação vertical (modo retrato).
 
